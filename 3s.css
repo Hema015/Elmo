@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.imag
+{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #000000;
+    padding: 3px;
+    border-radius: 50%;
+
+    
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.imag .profile{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+
+}
+.profile-card .text-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.text-data .name {
+font-size: 22px;
+font-weight: 500;
+
+}
+.text-data .job {
+    font-size: 15px;
+    font-weight: 400;
+    
+    }
+    .profile-card .media {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .media .link {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 18px;
+        width: 34px;
+        height: 34px;
+        margin: 0 8px;
+        background-color: #26a0da;
+        text-decoration: none;
+
+    }
+    .profile-card .buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .buttons .button {
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        border: none;
+        border-radius: 24px;
+        margin: 0 10px;
+        padding: 8px 24px;
+        background-color: #06608a;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .buttons .button:hover {
+background-color: #5ef14b;
+
+    }
+    .profile-card .anlyt{
+
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+
+    }
+    .anlyt .data{
+        display: flex;
+        align-items: center;
+        color: #333;
+        padding: 0 20px;
+        border-right: solid #e7e7e7;
+    }
+    .data i {
+        font-size: 18px;
+        margin-right: 6px;
+
+    }
+    .data:last-child {
+        border-right: none;
+    }
+    .profile-card::before {
+        content: '';
+        position: absolute;
+        height: 36%;
+        width: 100%;
+        background-color: #108fca;
+        top: 0;
+        left: 0;
+        border-radius: 24px 24px 0 0;
+    }
+    .buttons a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+
+    }
+    .buttons .button .b1:hover {
+        background-color: #ff0000;
+        
+            }
